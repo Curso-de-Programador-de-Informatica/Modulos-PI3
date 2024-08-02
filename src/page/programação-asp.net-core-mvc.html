@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="author" content="António Solipa" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Aqui estão todos os meus trabalhos e projetos acadêmicos organizados em módulos realizados na escola profissional do fundão." />
+
+        <link href="/src/css/styles.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="/src/assets/favicon.png" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+        <script src="/src/js/scripts.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+        <title>Programação ASP.Net Core MVC</title>
+    </head>
+
+    <body>
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="https://github.com/asolipa365/">António Solipa</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/index.html">Lar</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/src/page/sobre-mim.html">Sobre Mim</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://portfolio-epf.netlify.app/">Portfólio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('/src/img/programação-asp.net-core-mvc.png">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>Programação ASP.Net Core MVC</h1>
+                            <h2 class="subheading">O ASP.NET Core MVC é uma estrutura avançada para a criação de aplicativos Web e APIs usando o padrão de design Model-View-Controller.</h2>
+                            <span class="meta">Postado por <a href="https://github.com/asolipa365/">António Solipa</a> em 2022/2023</span><br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <h2 class="section-heading">Programação ASP.Net Core MVC</h2>
+                            <p>ASP.Net Core MVC é um framework de desenvolvimento web da Microsoft, baseado no padrão Model-View-Controller (MVC), que permite a criação de aplicativos web escaláveis e de alto desempenho. Neste trabalho, exploraremos os conceitos e práticas fundamentais da programação ASP.Net Core MVC, incluindo estrutura de projeto, roteamento, modelos, visualizações, controladores e integração com banco de dados.</p>
+                        <h2 class="section-heading">Estrutura de Projeto</h2>
+                            <p>O ASP.Net Core MVC segue uma estrutura de projeto modular e organizada, com componentes distintos para modelos, visualizações e controladores. Alguns aspectos da estrutura de projeto incluem:
+                                <li>Pasta Models: Onde são definidos os modelos de dados do aplicativo;</li>
+                                <li>Pasta Views: Onde são definidas as visualizações (arquivos .cshtml) que são renderizadas para o usuário;</li>
+                                <li>Pasta Controllers: Onde são definidos os controladores que recebem solicitações HTTP e executam a lógica do aplicativo.</li>
+                            </p>
+                        <h2 class="section-heading">Roteamento</h2>
+                            <a href="#!"><img class="img-fluid" src="/src/img/roteamento.jpg" alt="..." /></a>
+                                <p>O roteamento em ASP.Net Core MVC é responsável por mapear URLs de solicitação para ações em controladores. Alguns aspectos do roteamento incluem:
+                                    <li>Definição de rotas no arquivo Startup.cs usando o método `UseEndpoints`;</li>
+                                    <li>Roteamento baseado em atributos, onde os URLs das solicitações são mapeados diretamente para métodos em controladores usando atributos de roteamento, como `[HttpGet]`, `[HttpPost]`, `[Route]`, entre outros.</li>
+                                </p>
+                        <h2 class="section-heading">Modelos</h2>
+                            <p>Os modelos em ASP.Net Core MVC são usados para representar os dados do aplicativo. Alguns aspectos dos modelos incluem:
+                                <li>Definição de classes de modelo usando POCOs (Plain Old CLR Objects) para representar entidades de dados;</li>
+                                <li>Utilização de anotações de validação, como `[Required]`, `[StringLength]`, `[Range]`, entre outros, para validar os dados dos modelos.</li>
+                            </p>
+                        <h2 class="section-heading">Visualizações</h2>
+                            <p>As visualizações em ASP.Net Core MVC são usadas para renderizar conteúdo HTML para o usuário. Alguns aspectos das visualizações incluem:
+                                <li>Utilização de sintaxe Razor para misturar código C# com HTML nas visualizações;</li>
+                                <li>Uso de diretivas de controle, como `@if`, `@foreach`, `@for`, `@while`, entre outros, para controle de fluxo e repetição na renderização de HTML.</li>
+                            </p>
+                        <h2 class="section-heading">Controladores</h2>
+                            <a href="#!"><img class="img-fluid" src="/src/img/controladores.png" alt="..." /></a>
+                                <p>Os controladores em ASP.Net Core MVC são responsáveis por receber solicitações HTTP, executar a lógica do aplicativo e retornar respostas HTTP. Alguns aspectos dos controladores incluem:
+                                    <li>Definição de métodos de ação dentro de controladores para manipular solicitações HTTP;</li>
+                                    <li>Utilização de parâmetros de rota, consulta e corpo para receber dados de solicitação;</li>
+                                    <li>Retorno de diferentes tipos de resultados, como `ViewResult`, `JsonResult`, `RedirectResult`, entre outros, para responder às solicitações.</li>
+                                </p>
+                        <h2 class="section-heading">Integração com Banco de Dados</h2>
+                            <p>O ASP.Net Core MVC permite a integração com uma variedade de sistemas de gerenciamento de banco de dados (SGDB), como SQL Server, MySQL, PostgreSQL e SQLite. Alguns aspectos da integração com banco de dados incluem:
+                                <li>Utilização do Entity Framework Core para mapear objetos de modelo para tabelas de banco de dados e executar operações CRUD (Create, Read, Update, Delete);</li>
+                                <li>Configuração de conexões de banco de dados no arquivo `appsettings.json` usando a seção `ConnectionStrings`;</li>
+                                <li>Utilização de migrações do Entity Framework Core para criar e atualizar o esquema do banco de dados com base nas alterações no modelo de dados.</li>
+                            </p>
+                        <h2 class="section-heading">Conclusão</h2>
+                            <p>O ASP.Net Core MVC é uma plataforma poderosa e flexível para o desenvolvimento de aplicativos web, oferecendo uma estrutura de projeto organizada, roteamento flexível, modelos de dados robustos, visualizações dinâmicas, controladores eficientes e integração fácil com banco de dados. Ao dominar os conceitos e práticas discutidos neste trabalho, os desenvolvedores estarão bem equipados para criar aplicativos web modernos e escaláveis usando ASP.Net Core MVC.</p>
+                            <a href="#!"><img class="img-fluid" src="/src/img/programação-asp.net-core-mvc.png" alt="..." /></a>
+                        <span class="caption text-muted">O ASP.NET Core MVC é uma estrutura avançada para a criação de aplicativos Web e APIs usando o padrão de design Model-View-Controller.</span>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+                            <li class="list-inline-item">
+                                <a href="https://github.com/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.tiktok.com/@asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/@asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.twitch.tv/asolipa365/">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitch fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Direitos Autorais &copy; 2024 por António Solipa. Todos os meus direitos reservados.</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>
